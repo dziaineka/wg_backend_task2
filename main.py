@@ -98,8 +98,7 @@ def main():
 
 
 if __name__ == "__main__":
-    # db_connection = psycopg2.connect(host="postgreDB",
-    db_connection = psycopg2.connect(host="localhost",
+    db_connection = psycopg2.connect(host="postgreDB",
                                      database="wg_forge_db",
                                      user="wg_forge",
                                      password="42a")
